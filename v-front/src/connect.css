@@ -1,0 +1,97 @@
+.connect-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.connect-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.back-button-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.connect-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.connect-table th,
+.connect-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.connect-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.connect-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.connect-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.connect-table input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.add-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}

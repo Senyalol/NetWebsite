@@ -1,0 +1,97 @@
+/* aut.css */
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Фиксируем ширину окна */
+    height: 100vh; /* Фиксируем высоту окна */
+    overflow: hidden; /* Убираем прокрутку */
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-family: 'Roboto', sans-serif;
+}
+
+.auth-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.auth-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.auth-subtitle {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 5px rgba(110, 142, 251, 0.5);
+    outline: none;
+}
+
+.auth-button {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.auth-button:hover {
+    background: linear-gradient(135deg, #5b75d4, #9264c9);
+}
+
+.auth-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-footer a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.auth-footer a:hover {
+    color: #4c63b6;
+}
